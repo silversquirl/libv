@@ -1,0 +1,8 @@
+includedir=INCLUDE_DIR
+libdir=LIB_DIR
+
+Name: libv
+Description: A cross-platform utility library
+Version: VERSION
+Cflags: -I${includedir}/v
+Libs: -L${libdir} -lv
